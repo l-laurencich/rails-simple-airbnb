@@ -1,0 +1,50 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+
+.flexbox{
+  display:flex;
+}
+
+body{
+  background-color: white;
+}
+
+.navbar{
+  background-color: whitesmoke;
+}
+
+.card{
+  width: 30%;
+  margin: 25px;
+}
+
+.basic-info {
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+}
+
+.links{
+  padding: 10px;
+}
+
+.btn{
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}

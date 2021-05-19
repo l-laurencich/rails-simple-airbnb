@@ -1,0 +1,12 @@
+<div class="container">
+  <%= simple_form_for @flat do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :description %>
+    <%= f.input :price_per_night %>
+    <%= f.select :number_of_guests, number_of_guests: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16] %>
+    <%= f.submit class:'btn btn-primary' %>
+  <% end %>
+
+  <p><%= link_to 'back to results', flats_path %></p>
+</div>
